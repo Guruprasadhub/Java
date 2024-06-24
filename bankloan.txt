@@ -1,0 +1,22 @@
+
+import java.util.LinkedList;
+
+public class Main {
+
+	public static void main(String[] args) {
+		LinkedList<String> cert = new LinkedList();
+        cert.add("Aadhar card");
+        cert.add("Pan card");
+        cert.add("cibil score");
+        if(cert.contains("Aadhar card") && cert.contains("Pan card") && cert.contains("cibil score"))
+        		{
+        	       System.out.println("You are eligible");
+        		}
+           else
+                {
+        	       System.out.println("You are not eligible");
+                }
+       
+	}
+
+}
