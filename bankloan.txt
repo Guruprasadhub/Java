@@ -4,7 +4,7 @@ import java.util.LinkedList;
 public class Main {
 
 	public static void main(String[] args) {
-		LinkedList<String> cert = new LinkedList();
+	LinkedList<String> cert = new LinkedList();
         cert.add("Aadhar card");
         cert.add("Pan card");
         cert.add("cibil score");
@@ -12,11 +12,15 @@ public class Main {
         		{
         	       System.out.println("You are eligible");
         		}
-           else
-                {
+                        else
+                       {
         	       System.out.println("You are not eligible");
-                }
+                       }
        
 	}
 
 }
+
+/*Output:
+      You are eligible*/
+
