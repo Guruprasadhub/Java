@@ -18,3 +18,10 @@ public class Main {
 	}
 
 }
+
+/*Output:
+      Before removing first occurance:
+       [Batman, Captain America, Thor, Superman, Thor]
+      After removing first occurance:
+       [Batman, Captain America, Superman, Thor]*/
+
