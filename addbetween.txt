@@ -17,3 +17,10 @@ public class Main {
 	}
 
 }
+
+/*Output:
+      Before adding:
+      [Batman, Captain America, Ironman, Superman, Thor]
+     After adding:
+      [Batman, Captain America, Black panther, Ironman, Superman, Thor]*/
+
