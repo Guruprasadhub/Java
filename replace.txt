@@ -17,3 +17,6 @@ public class Main
 	}
 
 }
+
+/*Output:
+      [Batman, Captain America, Ironman, Superman, Thor]*/
