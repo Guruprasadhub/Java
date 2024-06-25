@@ -8,9 +8,12 @@ public class Main {
         names.add("Captain America");
         names.add("Iron man");
         names.add("Superman");
-        names.add("Thor");
+        names.add("Thor"); 
         names.addFirst("Spidy");
         System.out.print(names);
 	}
 
 }
+
+/*Output:
+[Spidy, Batman, Captain America, Iron man, Superman, Thor]*/
