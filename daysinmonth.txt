@@ -22,3 +22,16 @@ public class Main {
 	}
 
 }
+
+/*Output 1:
+       Enter the month:
+       february
+       The number of days in this month are: 
+       If leap year 29days else 28 days*/
+/*Output 2:
+       Enter the month:
+       january
+       The number of days in this month are: 
+       31 days*/
+
+
