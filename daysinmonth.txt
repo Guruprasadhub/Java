@@ -1,0 +1,24 @@
+
+import java.util.*;
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner f=new Scanner(System.in);
+		System.out.println("Enter the month:");
+		String s=f.nextLine();
+		System.out.println("The number of days in this month are: ");
+		if(s.equals("January")||s.equals("March")||s.equals("May")||s.equals("July")||s.equals("August")||s.equals("October")||s.equals("December")||s.equals("january")||s.equals("march")||s.equals("may")||s.equals("july")||s.equals("august")||s.equals("october")||s.equals("december"))
+		{
+			System.out.println("31 days");
+		}
+		else if(s.equals("February")||s.equals("february"))
+		{
+			System.out.println("If leap year 29days else 28 days");
+		}
+		else
+		{
+			System.out.println("30 days");
+		}
+	}
+
+}
